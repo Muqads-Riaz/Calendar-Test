@@ -1,0 +1,35 @@
+*{
+    cursor: pointer;
+    user-select: none;
+}
+ion-icon{
+    font-size: 25px;
+    color: white;
+}
+@media only screen and (min-width: 800px) {
+ .main{
+width:40%;
+border-radius: 10px;
+background-color: black;
+ }
+  }
+  @media only screen and (max-width: 800px) {
+    .main{
+        width:90%;
+        border-radius: 10px;
+        background-color: black;
+    }
+     }
+.hover:hover{
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.1s ease;
+  
+}
+.highlightedNumber{
+background-color: rgb(43, 226, 89);
+border-radius: 10px;
+cursor: pointer;
+transition: 0.1s ease;
+}
